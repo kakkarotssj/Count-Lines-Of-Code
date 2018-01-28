@@ -4,8 +4,9 @@ import sys
 
 
 class Calculate(object):
-    def __init__(self):
+    def __init__(self, path):
         self.total_lines = 0
+        print self.__count_lines(path)
 
     def __checker(self, path):
         while not os.path.exists(path):
@@ -65,7 +66,7 @@ class Calculate(object):
 
         return count
 
-    def count_lines(self, path):
+    def __count_lines(self, path):
         self.__checker(path)
 
         return self.total_lines
