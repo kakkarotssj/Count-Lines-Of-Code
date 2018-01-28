@@ -2,10 +2,7 @@ from main import Calculate
 
 
 def main():
-    c = Calculate()
-    lines = c.count_lines('/Users/sid/Desktop/newDesktop/Count-Lines-Of-Code/getToKnow/testing')
-
-    print(lines)
+    Calculate('/Users/sid/Desktop/newDesktop/Count-Lines-Of-Code/getToKnow/testing')
 
 
 if __name__ == "__main__":
