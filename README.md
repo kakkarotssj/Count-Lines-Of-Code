@@ -5,8 +5,7 @@
 
 ### eg: 
 ### from main import Calculate
-### c = Calculate()
-### c.count_lines('/Users/sid/Desktop/getToKnow/getToknow/testing')
+### Calculate('/Users/sid/Desktop/getToKnow/getToknow/testing')
 
 
 ## Note: Make sure to provide full path of your project
