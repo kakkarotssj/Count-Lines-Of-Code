@@ -27,7 +27,7 @@ class Calculate(object):
         everything = os.listdir(path)
         f = 0
         while f < len(everything):
-            if everything[f][0] in ['.', '_']:
+            if everything[f][0] in ['.', '_'] or everything[f] == 'db.sqlite3':
                 everything.remove(everything[f])
                 f -= 1
             f += 1
